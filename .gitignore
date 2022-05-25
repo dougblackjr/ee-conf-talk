@@ -1,0 +1,27 @@
+/vendor
+node_modules
+.idea
+
+# UNCOMMENT THIS LINE OUT TO AVOID COMMITTING YOUR config.local.php
+# I only commented this so you can have the config.local!!!
+# /system/user/config/config.local.php
+/system/user/cache/*
+/system/user/cache/current_version
+
+logs/
+
+.env
+.env.*
+
+# For those using Apache for local
+/public/.htaccess
+
+#Mac Files
+**/.DS_Store
+
+!.gitkeep
+*.sql
+NOTES.md
+
+/public/images/uploads
+!/public/images/uploads/.gitkeep
