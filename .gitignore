@@ -23,5 +23,5 @@ logs/
 *.sql
 NOTES.md
 
-/public/images/uploads
-!/public/images/uploads/.gitkeep
+/public/images/uploads/*
+!/public/images/uploads/index.html
